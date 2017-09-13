@@ -15,7 +15,8 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', ''),
+    'debug' => env('APP_DEBUG', true),
+    'warn_debug' => env('WARN_DEBUG', true),
 
     'env' => env('APP_ENV', 'production'),
 
